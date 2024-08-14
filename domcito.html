@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Captura</title>
+    <link rel="stylesheet" href="domcito.css">
+</head>
+<body>
+    <script src="domcito.js"></script>
+    <div id="caja1" class="form-container">
+        <h2>Captura de datos</h2>
+        <form name="fdatos">
+            <label for="name">Nombre:</label>
+            <input type="text" name="name" id="name1" required>
+
+            <label for="age">Edad:</label>
+            <input type="number" name="age" id="edad1" required min="0">
+
+            <input type="radio" name="sexo" value="masculino" checked>Masculino 
+            <input type="radio" name="sexo" value="femenino" checked>Femenino <br>
+            <br>
+            <br>
+            <label for="sport">Deportes</label>
+            <input type="radio" name="depor" value="Baloncesto" checked>Baloncesto
+            <input type="radio" name="depor" value="Voleyball" checked>Voleyball <br>
+            <input type="radio" name="depor" value="Tenis" checked>Tenis
+            <input type="radio" name="depor" value="Futbol" checked>Futbol
+<br>
+<br>
+            <input type="submit" value="Enviar" onclick="calcular()">
+        </form>
+
+    </div>
+</body>
+</html>

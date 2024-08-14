@@ -1,0 +1,17 @@
+button{
+    background-color: rgb(129, 193, 121);
+    height: 7vh;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   
+}
+
+body{
+    background-color:  rgb(77, 205, 190);
+}
+
+h1{
+    color: rgb(1, 4, 7);
+}
+
+
